@@ -77,6 +77,12 @@
 		<Unit filename="D:/ShareFile/CKong/main.c">
 			<Option target="CKong"/>
 		</Unit>
+		<Unit filename="D:/ShareFile/CKong/str.c">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/str.h">
+			<Option target="CKong"/>
+		</Unit>
 		<Unit filename="D:/ShareFile/CKong/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

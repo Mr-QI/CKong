@@ -149,6 +149,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/main.c.s
 .PHONY : main.c.s
 
+str.obj: str.c.obj
+
+.PHONY : str.obj
+
+# target to build an object file
+str.c.obj:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/str.c.obj
+.PHONY : str.c.obj
+
+str.i: str.c.i
+
+.PHONY : str.i
+
+# target to preprocess a source file
+str.c.i:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/str.c.i
+.PHONY : str.c.i
+
+str.s: str.c.s
+
+.PHONY : str.s
+
+# target to generate assembly for a file
+str.c.s:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/str.c.s
+.PHONY : str.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... str.obj
+	@echo ... str.i
+	@echo ... str.s
 .PHONY : help
 
 

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CKong.exe.manifest"
   "CKong.pdb"
   "CMakeFiles/CKong.dir/main.c.obj"
+  "CMakeFiles/CKong.dir/str.c.obj"
   "libCKong.dll.a"
 )
 

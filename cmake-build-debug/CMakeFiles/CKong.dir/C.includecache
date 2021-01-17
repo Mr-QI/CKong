@@ -7,6 +7,18 @@
 #IncludeRegexTransform: 
 
 D:/ShareFile/CKong/main.c
+str.h
+D:/ShareFile/CKong/str.h
+
+D:/ShareFile/CKong/str.h
 stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
 -
 

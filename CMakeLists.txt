@@ -3,4 +3,4 @@ project(CKong C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CKong main.c)
+add_executable(CKong main.c str.c str.h)
