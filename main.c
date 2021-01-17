@@ -1,6 +1,6 @@
 #include "str.h"
 
-int main(int argc, char** argv)
+void test_string_module()
 {
     string_t* hello_world  = string_clone("HELLO WORLD");
     string_print(hello_world, stdout);
@@ -23,5 +23,11 @@ int main(int argc, char** argv)
     string_t* str_concat = string_concat(hello, world);
     string_print(str_concat, stdout);
     string_free(str_concat);
+}
+
+
+int main()
+{
+    test_string_module();
     return 0;
 }

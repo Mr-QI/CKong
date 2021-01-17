@@ -6,19 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/ShareFile/CKong/main.c
-str.h
-D:/ShareFile/CKong/str.h
+D:/ShareFile/CKong/tile.c
+tile.h
+D:/ShareFile/CKong/tile.h
 
-D:/ShareFile/CKong/str.h
-stdio.h
--
+D:/ShareFile/CKong/tile.h
 stdint.h
--
-stdlib.h
--
-assert.h
--
-string.h
 -
 

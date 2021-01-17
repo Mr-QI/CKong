@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/ShareFile/CKong/actor.c" "D:/ShareFile/CKong/cmake-build-debug/CMakeFiles/CKong.dir/actor.c.obj"
   "D:/ShareFile/CKong/main.c" "D:/ShareFile/CKong/cmake-build-debug/CMakeFiles/CKong.dir/main.c.obj"
+  "D:/ShareFile/CKong/palette.c" "D:/ShareFile/CKong/cmake-build-debug/CMakeFiles/CKong.dir/palette.c.obj"
+  "D:/ShareFile/CKong/sprite.c" "D:/ShareFile/CKong/cmake-build-debug/CMakeFiles/CKong.dir/sprite.c.obj"
   "D:/ShareFile/CKong/str.c" "D:/ShareFile/CKong/cmake-build-debug/CMakeFiles/CKong.dir/str.c.obj"
+  "D:/ShareFile/CKong/tile.c" "D:/ShareFile/CKong/cmake-build-debug/CMakeFiles/CKong.dir/tile.c.obj"
+  "D:/ShareFile/CKong/tile_map.c" "D:/ShareFile/CKong/cmake-build-debug/CMakeFiles/CKong.dir/tile_map.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

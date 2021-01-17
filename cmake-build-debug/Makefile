@@ -122,6 +122,33 @@ CKong/fast:
 	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/build
 .PHONY : CKong/fast
 
+actor.obj: actor.c.obj
+
+.PHONY : actor.obj
+
+# target to build an object file
+actor.c.obj:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/actor.c.obj
+.PHONY : actor.c.obj
+
+actor.i: actor.c.i
+
+.PHONY : actor.i
+
+# target to preprocess a source file
+actor.c.i:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/actor.c.i
+.PHONY : actor.c.i
+
+actor.s: actor.c.s
+
+.PHONY : actor.s
+
+# target to generate assembly for a file
+actor.c.s:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/actor.c.s
+.PHONY : actor.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -148,6 +175,60 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/main.c.s
 .PHONY : main.c.s
+
+palette.obj: palette.c.obj
+
+.PHONY : palette.obj
+
+# target to build an object file
+palette.c.obj:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/palette.c.obj
+.PHONY : palette.c.obj
+
+palette.i: palette.c.i
+
+.PHONY : palette.i
+
+# target to preprocess a source file
+palette.c.i:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/palette.c.i
+.PHONY : palette.c.i
+
+palette.s: palette.c.s
+
+.PHONY : palette.s
+
+# target to generate assembly for a file
+palette.c.s:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/palette.c.s
+.PHONY : palette.c.s
+
+sprite.obj: sprite.c.obj
+
+.PHONY : sprite.obj
+
+# target to build an object file
+sprite.c.obj:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/sprite.c.obj
+.PHONY : sprite.c.obj
+
+sprite.i: sprite.c.i
+
+.PHONY : sprite.i
+
+# target to preprocess a source file
+sprite.c.i:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/sprite.c.i
+.PHONY : sprite.c.i
+
+sprite.s: sprite.c.s
+
+.PHONY : sprite.s
+
+# target to generate assembly for a file
+sprite.c.s:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/sprite.c.s
+.PHONY : sprite.c.s
 
 str.obj: str.c.obj
 
@@ -176,6 +257,60 @@ str.c.s:
 	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/str.c.s
 .PHONY : str.c.s
 
+tile.obj: tile.c.obj
+
+.PHONY : tile.obj
+
+# target to build an object file
+tile.c.obj:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/tile.c.obj
+.PHONY : tile.c.obj
+
+tile.i: tile.c.i
+
+.PHONY : tile.i
+
+# target to preprocess a source file
+tile.c.i:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/tile.c.i
+.PHONY : tile.c.i
+
+tile.s: tile.c.s
+
+.PHONY : tile.s
+
+# target to generate assembly for a file
+tile.c.s:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/tile.c.s
+.PHONY : tile.c.s
+
+tile_map.obj: tile_map.c.obj
+
+.PHONY : tile_map.obj
+
+# target to build an object file
+tile_map.c.obj:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/tile_map.c.obj
+.PHONY : tile_map.c.obj
+
+tile_map.i: tile_map.c.i
+
+.PHONY : tile_map.i
+
+# target to preprocess a source file
+tile_map.c.i:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/tile_map.c.i
+.PHONY : tile_map.c.i
+
+tile_map.s: tile_map.c.s
+
+.PHONY : tile_map.s
+
+# target to generate assembly for a file
+tile_map.c.s:
+	$(MAKE) -f CMakeFiles\CKong.dir\build.make CMakeFiles/CKong.dir/tile_map.c.s
+.PHONY : tile_map.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +320,27 @@ help:
 	@echo ... CKong
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... actor.obj
+	@echo ... actor.i
+	@echo ... actor.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... palette.obj
+	@echo ... palette.i
+	@echo ... palette.s
+	@echo ... sprite.obj
+	@echo ... sprite.i
+	@echo ... sprite.s
 	@echo ... str.obj
 	@echo ... str.i
 	@echo ... str.s
+	@echo ... tile.obj
+	@echo ... tile.i
+	@echo ... tile.s
+	@echo ... tile_map.obj
+	@echo ... tile_map.i
+	@echo ... tile_map.s
 .PHONY : help
 
 

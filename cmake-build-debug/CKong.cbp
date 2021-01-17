@@ -74,13 +74,43 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/ShareFile/CKong/actor.c">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/actor.h">
+			<Option target="CKong"/>
+		</Unit>
 		<Unit filename="D:/ShareFile/CKong/main.c">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/palette.c">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/palette.h">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/sprite.c">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/sprite.h">
 			<Option target="CKong"/>
 		</Unit>
 		<Unit filename="D:/ShareFile/CKong/str.c">
 			<Option target="CKong"/>
 		</Unit>
 		<Unit filename="D:/ShareFile/CKong/str.h">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/tile.c">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/tile.h">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/tile_map.c">
+			<Option target="CKong"/>
+		</Unit>
+		<Unit filename="D:/ShareFile/CKong/tile_map.h">
 			<Option target="CKong"/>
 		</Unit>
 		<Unit filename="D:/ShareFile/CKong/CMakeLists.txt">

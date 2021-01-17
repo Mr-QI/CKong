@@ -82,21 +82,96 @@ CMakeFiles/CKong.dir/str.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CKong.dir/str.c.s"
 	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ShareFile\CKong\str.c -o CMakeFiles\CKong.dir\str.c.s
 
+CMakeFiles/CKong.dir/palette.c.obj: CMakeFiles/CKong.dir/flags.make
+CMakeFiles/CKong.dir/palette.c.obj: ../palette.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ShareFile\CKong\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CKong.dir/palette.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CKong.dir\palette.c.obj   -c D:\ShareFile\CKong\palette.c
+
+CMakeFiles/CKong.dir/palette.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CKong.dir/palette.c.i"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ShareFile\CKong\palette.c > CMakeFiles\CKong.dir\palette.c.i
+
+CMakeFiles/CKong.dir/palette.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CKong.dir/palette.c.s"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ShareFile\CKong\palette.c -o CMakeFiles\CKong.dir\palette.c.s
+
+CMakeFiles/CKong.dir/tile.c.obj: CMakeFiles/CKong.dir/flags.make
+CMakeFiles/CKong.dir/tile.c.obj: ../tile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ShareFile\CKong\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CKong.dir/tile.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CKong.dir\tile.c.obj   -c D:\ShareFile\CKong\tile.c
+
+CMakeFiles/CKong.dir/tile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CKong.dir/tile.c.i"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ShareFile\CKong\tile.c > CMakeFiles\CKong.dir\tile.c.i
+
+CMakeFiles/CKong.dir/tile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CKong.dir/tile.c.s"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ShareFile\CKong\tile.c -o CMakeFiles\CKong.dir\tile.c.s
+
+CMakeFiles/CKong.dir/sprite.c.obj: CMakeFiles/CKong.dir/flags.make
+CMakeFiles/CKong.dir/sprite.c.obj: ../sprite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ShareFile\CKong\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CKong.dir/sprite.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CKong.dir\sprite.c.obj   -c D:\ShareFile\CKong\sprite.c
+
+CMakeFiles/CKong.dir/sprite.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CKong.dir/sprite.c.i"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ShareFile\CKong\sprite.c > CMakeFiles\CKong.dir\sprite.c.i
+
+CMakeFiles/CKong.dir/sprite.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CKong.dir/sprite.c.s"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ShareFile\CKong\sprite.c -o CMakeFiles\CKong.dir\sprite.c.s
+
+CMakeFiles/CKong.dir/tile_map.c.obj: CMakeFiles/CKong.dir/flags.make
+CMakeFiles/CKong.dir/tile_map.c.obj: ../tile_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ShareFile\CKong\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CKong.dir/tile_map.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CKong.dir\tile_map.c.obj   -c D:\ShareFile\CKong\tile_map.c
+
+CMakeFiles/CKong.dir/tile_map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CKong.dir/tile_map.c.i"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ShareFile\CKong\tile_map.c > CMakeFiles\CKong.dir\tile_map.c.i
+
+CMakeFiles/CKong.dir/tile_map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CKong.dir/tile_map.c.s"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ShareFile\CKong\tile_map.c -o CMakeFiles\CKong.dir\tile_map.c.s
+
+CMakeFiles/CKong.dir/actor.c.obj: CMakeFiles/CKong.dir/flags.make
+CMakeFiles/CKong.dir/actor.c.obj: ../actor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ShareFile\CKong\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CKong.dir/actor.c.obj"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CKong.dir\actor.c.obj   -c D:\ShareFile\CKong\actor.c
+
+CMakeFiles/CKong.dir/actor.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CKong.dir/actor.c.i"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\ShareFile\CKong\actor.c > CMakeFiles\CKong.dir\actor.c.i
+
+CMakeFiles/CKong.dir/actor.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CKong.dir/actor.c.s"
+	D:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\ShareFile\CKong\actor.c -o CMakeFiles\CKong.dir\actor.c.s
+
 # Object files for target CKong
 CKong_OBJECTS = \
 "CMakeFiles/CKong.dir/main.c.obj" \
-"CMakeFiles/CKong.dir/str.c.obj"
+"CMakeFiles/CKong.dir/str.c.obj" \
+"CMakeFiles/CKong.dir/palette.c.obj" \
+"CMakeFiles/CKong.dir/tile.c.obj" \
+"CMakeFiles/CKong.dir/sprite.c.obj" \
+"CMakeFiles/CKong.dir/tile_map.c.obj" \
+"CMakeFiles/CKong.dir/actor.c.obj"
 
 # External object files for target CKong
 CKong_EXTERNAL_OBJECTS =
 
 CKong.exe: CMakeFiles/CKong.dir/main.c.obj
 CKong.exe: CMakeFiles/CKong.dir/str.c.obj
+CKong.exe: CMakeFiles/CKong.dir/palette.c.obj
+CKong.exe: CMakeFiles/CKong.dir/tile.c.obj
+CKong.exe: CMakeFiles/CKong.dir/sprite.c.obj
+CKong.exe: CMakeFiles/CKong.dir/tile_map.c.obj
+CKong.exe: CMakeFiles/CKong.dir/actor.c.obj
 CKong.exe: CMakeFiles/CKong.dir/build.make
 CKong.exe: CMakeFiles/CKong.dir/linklibs.rsp
 CKong.exe: CMakeFiles/CKong.dir/objects1.rsp
 CKong.exe: CMakeFiles/CKong.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ShareFile\CKong\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable CKong.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\ShareFile\CKong\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable CKong.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CKong.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

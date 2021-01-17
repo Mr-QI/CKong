@@ -12,6 +12,7 @@
 
 typedef struct str{
     uint16_t len;
+    uint16_t pos;
     uint8_t* data;
 }string_t;
 
@@ -23,6 +24,8 @@ void string_free(string_t* string);
 
 uint16_t string_len(string_t* string);
 
+void string_printc(char c, FILE* file);
+
 void string_print(string_t* string, FILE* file);
 
 string_t* string_left(const string_t* lhs, uint16_t len);
@@ -31,5 +34,8 @@ string_t* string_right(const string_t* rhs, uint16_t len);
 
 string_t* string_concat(const string_t* lhs, const string_t* rhs);
 
+uint16_t string_append(string_t* string, const string_t* lhs);
+
+uint16_t string_appendz(string_t* string, const char* lhs);
 
 #endif //CKONG_STR_H
